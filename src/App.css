@@ -1,0 +1,37 @@
+/* App.css */
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  height: 100%; /* Ensure the root element takes up the full height */
+  background-color: #1e3a8a; /* Tailwind's blue-800 or a custom blue */
+  width: 100%;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end; /* Align content to the bottom */
+  height: 100%; /* Make sure the container takes the full height */
+  padding: 20px; /* Add some padding */
+}
+
+.flex {
+  display: flex;
+}
+
+
+
+.text-white {
+  color: #ffffff; /* White text */
+}
+
+.message {
+  margin: 10px 0; /* Add some spacing between messages */
+}
+
+/* Add any other styles as needed */
